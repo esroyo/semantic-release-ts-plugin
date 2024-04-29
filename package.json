@@ -1,0 +1,14 @@
+{
+  "name": "mytest",
+  "version": "1.0.0",
+  "scripts": {
+    "release": "NODE_OPTIONS=--import=tsx npx semantic-release"
+  },
+  "workspaces": [
+    "myplugin"
+  ],
+  "devDependencies": {
+    "semantic-release": "^23.0.8",
+    "tsx": "^4.7.3"
+  }
+}
